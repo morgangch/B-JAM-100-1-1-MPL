@@ -1,0 +1,64 @@
+body {
+    color: black;
+    background-color:white;
+    background-image:url(img/menu.jpg);
+    background-size: contain;
+    background-attachment:fixed;
+    margin: 0;
+    background-attachment:fixed;
+}
+
+
+.music {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+@keyframes rotateAnim {
+    from {transform: rotateY(0);}
+    to {transform: rotateY(360deg);}
+}
+
+.logo {
+    position: relative;
+    top: 690px;
+    left: 600px;
+    animation: rotateAnim 10s linear infinite;
+}
+
+.logo1 {
+    position: relative;
+    top: 690px;
+    left: 900px;
+    animation: rotateAnim 10s linear infinite;
+}
+
+.play
+{
+    position: absolute;
+    left: 755px;
+    top: 650px;
+    border: 0;
+    background: red;
+    display: block;
+    margin: 100px 50px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    border: 5px solid white;
+    padding: 20px 46px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.play:hover
+{
+    background: white;
+    color: black;
+        animation: rotateAnim 1s linear infinite;
+}
