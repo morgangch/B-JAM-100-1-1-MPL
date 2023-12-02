@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Foundation</title>
+    <link rel="stylesheet" href="mort.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var clickButton = document.querySelector('.click');
+        var popupBox = document.querySelector('.popup_box');
+        var btnCancel = document.querySelector('.btn1');
+        var btnDelete = document.querySelector('.btn2');
+    
+        clickButton.addEventListener('click', function() {
+          popupBox.style.display = "block";
+        });
+    
+        btnCancel.addEventListener('click', function() {
+          popupBox.style.display = "none";
+        });
+    
+      });
+    </script>
+    
+    
+
+  </head>
+  <body>
+    <a href="#" class="click">GAME OVER</a>
+    <div class="popup_box">
+      <h1>Vous etes mort</h1>
+      <label>Vous etes mort suite a une execution a cause de votre refus</label>
+      <div class="btns">
+        <a href="../narrative.html" class="btn1">Je recommence</a>
+        <a href="../../menu.html" class="btn2">Je reviens au menu</a>
+      </div>
+    </div>
+  </body>
+</html>

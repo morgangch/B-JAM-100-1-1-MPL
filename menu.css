@@ -1,8 +1,8 @@
 body {
     color: black;
     background-color:white;
-    background-image:url(img/menu.jpg);
-    background-size: contain;
+    background-image:url(img/menu1.jpg);
+    background-size: 1980px 1080px;
     background-attachment:fixed;
     margin: 0;
     background-attachment:fixed;
@@ -22,14 +22,14 @@ body {
 
 .logo {
     position: relative;
-    top: 690px;
+    /* top: 690px; */
     left: 600px;
     animation: rotateAnim 10s linear infinite;
 }
 
 .logo1 {
     position: relative;
-    top: 690px;
+    /* top: 690px; */
     left: 900px;
     animation: rotateAnim 10s linear infinite;
 }
@@ -38,7 +38,7 @@ body {
 {
     position: absolute;
     left: 755px;
-    top: 650px;
+    top: -40px;
     border: 0;
     background: red;
     display: block;

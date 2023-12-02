@@ -1,0 +1,37 @@
+body {
+    color: black;
+    background-color:white;
+    background-image:url(img/machine.jpg);
+    background-size: 1925px 1080px;
+    background-attachment:fixed;
+    margin: 0;
+    background-attachment:fixed;
+}
+
+.entrer
+{
+    position: absolute;
+    left: 760px;
+    top: 400px;
+    border: 0;
+    background: red;
+    display: block;
+    margin: 100px 50px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    border: 5px solid white;
+    padding: 20px 46px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.play:hover
+{
+    background: white;
+    color: black;
+}

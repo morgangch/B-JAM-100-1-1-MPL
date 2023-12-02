@@ -1,0 +1,9 @@
+body {
+    color: black;
+    background-color:white;
+    background-image:url(img/voyage.png);
+    background-size: 1925px 1080px;
+    background-attachment:fixed;
+    margin: 0;
+    background-attachment:fixed;
+}
