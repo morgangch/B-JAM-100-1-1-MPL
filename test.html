@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>this is scp fondation website</title>
-        <style>
-            body {
-                background-image: url("fond.jpg");
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                height: 100vh;
-                margin: 0;
-                padding: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>this is scp fondation website</h1>
-        <a href="http://www.scp_fondation.com" target="_blank">Clique ici pour visiter scp_fondation.com</a>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel Example</title>
+    <link rel="stylesheet" href="style_test.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="story-text">
+        </div>
+        <div id="choices">
+            <button id="killAmajahButton" onclick="makeChoice('killAmajah')">Kill Amajah</button>
+            <button id="killKingButton" onclick="makeChoice('killKing')" style="display: none;">Kill the King</button>
+            <button onclick="makeChoice('stealCrown')">Steal the Crown</button>
+            <button onclick="makeChoice('fightInArmy')">Join the Army</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
