@@ -1,25 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-}
 body{
-  font-family: 'Noto Sans TC', sans-serif;
-  background-image:url(img/jungle_phone.png);
+  background-image:url(img/monstre.jpg);
   background-size: 1940px 1080px;
-  background-position: center;
   background-attachment:fixed;
   margin: 0;
 }
-.click, .popup_box{
+.click{
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
   
 }
+
+.popup_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
 .click{
   color: white;
   font-size: 22px;
@@ -57,7 +58,7 @@ body{
   margin: 40px 0 0 0;
 }
 .btns .btn1, .btns .btn2{
-  background: rgb(153, 153, 153);
+  background: #999999;
   color: white;
   font-size: 18px;
   border-radius: 5px;

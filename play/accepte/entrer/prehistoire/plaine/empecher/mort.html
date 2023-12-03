@@ -3,15 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Foundation</title>
-    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="mort.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         var clickButton = document.querySelector('.click');
         var popupBox = document.querySelector('.popup_box');
-        var btnCancel = document.querySelector('.btn1');
-        var btnDelete = document.querySelector('.btn2');
     
         clickButton.addEventListener('click', function() {
           popupBox.style.display = "block";
@@ -23,16 +21,18 @@
     
       });
     </script>
+    
+    
 
   </head>
   <body>
-    <a href="#" class="click">Mission</a>
+    <a href="#" class="click">GAME OVER</a>
     <div class="popup_box">
-      <h1>CHOIX</h1>
-      <label>Vous avez découvert un téléphone. Que souhaitez vous faire ?</label>
+      <h1>Vous etes plus humain</h1>
+      <label>Vous etes plus humain car vous avez empècher le rituel qui permet d'eviter la perte de l'humaniter</label>
       <div class="btns">
-        <a href="decouverte/indice.html" class="btn1">Vérifier ?</a>
-        <a href="mort/mort.html" class="btn2">Laisser !</a>
+        <a href="../rituel.html" class="btn1">Je recommence</a>
+        <a href="../../../../../../menu.html" class="btn2">Je reviens au menu</a>
       </div>
     </div>
   </body>
