@@ -1,7 +1,11 @@
 let hasKilledAmajah = false;
 let hasStolenCrown = false;
 let hasFoughtInArmy = false;
-let hasKilledTheKing = false; // Ajout de la variable
+let hasKilledTheKing = false;
+let chapter_number = 0;
+let chapter_theme = "Intro";
+let chapter_themes = ["Intro", "Prehistoric", "Medieval", "Future", "End"];
+
 
 function makeChoice(choice) {
     switch (choice) {
