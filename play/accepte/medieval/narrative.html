@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Foundation</title>
-    <link rel="stylesheet" href="mort.css">
+    <link rel="stylesheet" href="narrative.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         var clickButton = document.querySelector('.click');
         var popupBox = document.querySelector('.popup_box');
+        var btnCancel = document.querySelector('.btn1');
+        var btnDelete = document.querySelector('.btn2');
     
         clickButton.addEventListener('click', function() {
           popupBox.style.display = "block";
@@ -21,16 +23,18 @@
     
       });
     </script>
+    
+    
 
   </head>
   <body>
-    <a href="#" class="click">GAME OVER</a>
+    <a href="#" class="click">Mission</a>
     <div class="popup_box">
-      <h1>Vous etes mort</h1>
-      <label>Vous etes mort suite a une execution a cause de votre refus</label>
+      <h1>MISSION</h1>
+      <label>Actuellement le Dr ▮▮▮▮▮▮ a découvert le SCP 2003. Toi, classe D-0904. Tu vas devoir entrer dans cette machine et l'experimenter. Accepte tu cette mission ?</label>
       <div class="btns">
-        <a href="../narrative.html" class="btn1">Je recommence</a>
-        <a href="../../menu.html" class="btn2">Je reviens au menu</a>
+        <a href="accepte/machine.html" class="btn1">J'accepte !</a>
+        <a href="refuse/mort.html" class="btn2">Je refuse !</a>
       </div>
     </div>
   </body>
