@@ -1,30 +1,9 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-}
-
-.image-container {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-}
-
-@keyframes zoomAnimation {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(4);
-    }
-}
-
-.zoomable-image {
-    width: 100%;
-    height: auto;
-    animation: zoomAnimation 4s forwards;
+    background-image:url('img/hyperspatial.gif');
+    background-size:100%;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
 }
