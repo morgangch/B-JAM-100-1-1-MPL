@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec Fond d'Image</title>
+    <link rel="stylesheet" href="./prehistoire.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var clickButton = document.querySelector('.click');
+        var popupBox = document.querySelector('.popup_box');
+        var btnCancel = document.querySelector('.btn1');
+        var btnDelete = document.querySelector('.btn2');
+    
+        clickButton.addEventListener('click', function() {
+            popupBox.style.display = "block";
+        });
+    
+        btnCancel.addEventListener('click', function() {
+            popupBox.style.display = "none";
+        });
+    
+        });
+    </script>
+</head>
+<body>
+    <a href="#" class="click">Mission</a>
+    <div class="popup_box">
+    <h1>Vous voici à la préhistoire</h1>
+    <label>Vous avez donc réussi à retourner dans le passé, et à créer l'organisme de confinement des SCP le plus puissant au monde. Vous en êtes le dirigeant immortel.</label>
+    <div class="btns">
+        <a href="creation_de_fondation/creation_de_fonction.html" class="btn1">gg</a>
+    </div>
+    </div>
+</html>

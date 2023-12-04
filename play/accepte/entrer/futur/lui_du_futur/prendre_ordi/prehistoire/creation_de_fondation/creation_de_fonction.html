@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec Fond d'Image</title>
+    <link rel="stylesheet" href="creation_de_fonction.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var clickButton = document.querySelector('.click');
+        var popupBox = document.querySelector('.popup_box');
+        var btnCancel = document.querySelector('.btn1');
+        var btnDelete = document.querySelector('.btn2');
+    
+        clickButton.addEventListener('click', function() {
+            popupBox.style.display = "block";
+        });
+    
+        btnCancel.addEventListener('click', function() {
+            popupBox.style.display = "none";
+        });
+    
+        });
+    </script>
+</head>
+<body>
+    <a href="#" class="click">Mission</a>
+    <div class="popup_box">
+    <h1>Félicitations</h1>
+    <label> Vous avez obtenu la fin la plus positive possible.</label>
+    <div class="btns">
+        <a href="../../../../../../../../menu.html" class="btn2">Je reviens au menu</a>
+    </div>
+    </div>
+</html>
